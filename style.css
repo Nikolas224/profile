@@ -55,6 +55,17 @@ a:hover {
     padding-left: 0px;
   }
 
+  .btn-blue {
+    background-color: #4D9078;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+  }
+
+  .btn-blue:hover {
+    background-color: black;
+  }
+
   @media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */
     .container {
