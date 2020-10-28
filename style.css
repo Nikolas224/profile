@@ -42,29 +42,36 @@ a:hover {
     padding: 20px;
     box-shadow: 0 5px 10px rgb(220, 218, 218);
     margin: 10px auto;
-  }
+}
 
-  .list-inline > li {
+.list-inline > li {
     display: inline-block;
     padding: 0px 20px;
     font-size: 30px;
-  }
+}
 
-  .list-inline {
+.list-inline {
     list-style: none;
     padding-left: 0px;
-  }
+}
 
-  .btn-blue {
+.btn-blue {
     background-color: #4D9078;
     border-radius: 5px;
     padding: 5px 15px;
     color: white;
-  }
+}
 
-  .btn-blue:hover {
+.btn-blue:hover {
     background-color: black;
-  }
+}
+
+.transition{
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
 
   @media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */
