@@ -22,17 +22,8 @@ a {
     color: #f4a261;
 }
 
-li > a {
-  padding: 2em 3em;
-  transition: padding 0.15s, background 0.3s;
-}
-
 a:hover {
     color: #e76f51;
-}
-
-li > a:hover {
-  padding-top: calc(2em - 2px);
 }
 
 .img-circle {
